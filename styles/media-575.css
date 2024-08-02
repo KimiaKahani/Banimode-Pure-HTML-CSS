@@ -1,0 +1,60 @@
+.advertising a{
+    background-color: #F6372B;
+    background-size: auto 50%;
+}
+section.main-cat div{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+section.second-main-cat div{
+    grid-template-columns: repeat(1, 1fr);
+}
+.home-amazing .card-area{
+    grid-template-columns: repeat(1, 1fr);
+}
+.home-amazing .card-area .card-item{
+    width: 80%;
+    height: 95%;
+}
+.card-item .card-details{
+    width: 80%;
+}
+.home-amazing .see-all{
+    width: 50%;
+    margin: 0 auto;
+}
+.feature .row{
+    grid-template-columns: repeat(1, 1fr);
+}
+.feature .feature-box{
+    margin: 40px auto;
+    width: 330px;
+}
+.home-mode-sugget .row{
+    grid-template-columns: repeat(1, 1fr);
+}
+.home-mode-sugget .see-all{
+    width: 50%;
+    margin: 0 auto;
+}
+.feature-box p{
+    display: block;
+}
+.feature-box .feature-box-img{
+    top: -70px;
+}
+.feature-box p.feature-title {
+    top: 0;
+}
+article .newsletter .part-title{
+    font-size: 1.2rem;
+}
+.newsletter .newsletter-form button i{
+    display: none;
+}
+footer .footer-links .footer-col-links .footer-contact-info{
+    display: flex;
+}
+footer .footer-copyright{
+    display: block;
+}
